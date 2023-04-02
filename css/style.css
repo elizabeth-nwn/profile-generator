@@ -1,0 +1,73 @@
+/* Google Import */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+
+
+/* Estilo principal */
+
+/*
+* {
+    background-color: #214450;
+    color: #214450;
+}
+*/
+
+body {
+    background-color: #20434e;
+}
+
+main {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+header {
+	top: .5em;
+	left: .5em;
+	width: calc(100% - 1.5em);
+	height: 4em;
+
+    
+    border: 2px solid white;
+    border-radius: 10px;
+
+    margin: 0.2em;
+
+	background-color: #7cc1d8;
+    background-image: url("../img/header_fade.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+header h1 {
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 0.5em;
+	font-size: 1.5em;
+}
+
+
+/* Atributos */
+
+.title_header {
+    font-weight: 400;
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    padding: 16px;
+    text-align: center;
+}
+
+.page-box {
+    border-radius: 10px;
+    border: 2px solid #7cc1d8;
+    padding: 20px;
+}
+
+._breakline {
+    border: none;
+    border-top: 2px solid #ccc;
+    width: 80%;
+}
